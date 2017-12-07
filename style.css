@@ -1,0 +1,109 @@
+h2, h3, h4, h5 {
+  margin: 15px 0;
+}
+
+body, a {
+  margin: 0;
+  padding: 0;
+
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+header nav span {
+  padding-left: 15px;
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-column-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission {
+  background-image: url('./images/img-mission-background.jpg');
+  height: 700px;
+  padding-top: 70px;
+}
+
+#mission div {
+  background-color: black;
+  width: 1200px;
+}
+
+#featured {
+  padding: 70px 0;
+}
+
+.tea-card {
+  margin: 0 15px;
+}
+
+.tea-card img {
+  width: 300px;
+  height: 200px;
+}
+
+#location {
+  background-image: url('./images/img-locations-background.jpg');
+  background-size: cover;
+  height: 570px;
+  padding-top: 0;
+}
+
+#location .flex-row {
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.loc-card {
+  width: 300px;
+  background-color: black;
+}
+
+footer {
+  padding: 20px 0; 
+}
+
+#copyright {
+  margin-left: 20px;
+  text-align: left;
+}
